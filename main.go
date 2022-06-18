@@ -9,8 +9,6 @@ import (
 
 func main() {
 	app := fiber.New()
-
-	//run database
 	configs.ConnectDB()
 
 	routes.UserRoute(app)
