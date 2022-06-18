@@ -18,6 +18,8 @@ $ git clone https://github.com/matheuscaet/go-api.git
 # Acesse a pasta do projeto no terminal/cmd
 $ cd go-api
 
+```
+
 Crie um arquivo também na raiz, com nome **.env** e cole as variáveis dentro.
 
 O preenchimento dessas variáveis são obrigatórias, então segue um exemplo de uso:
