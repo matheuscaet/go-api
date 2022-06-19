@@ -2,38 +2,39 @@
 
 RestApi with golang MongoDB
 
-### 📋 Tecnologias utilizadas
+### 📋 Technologies
 
-As tecnologias abaixo foram utilizadas:
+Used technologies:
 
 - [Golang](https://www.golang.org)
+- [Fiber v2](https://docs.gofiber.io/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 
-### 🔧 Instalação
+### 🔧 Intalation
 
 ```bash
-# Clone este repositório
+# Clone this repo
 $ git clone https://github.com/matheuscaet/go-api.git
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access project folder
 $ cd go-api
 
 ```
 
-Crie um arquivo também na raiz, com nome **.env** e cole as variáveis dentro.
+Create a file as **.env** and insert the environment variables.
 
-O preenchimento dessas variáveis são obrigatórias, então segue um exemplo de uso:
+You must to use this variables:
 
-| VARIÁVEL  | VALOR                                                  |
+| Variable  | Value                                                  |
 | --------- | ------------------------------------------------------ |
 | API_PORT  | 3001                                                   |
 | MONGOURI  | mongodb+srv://(USER):(PASS)@cluster0.h5mtb.mongodb.net |
-| API_KEY  | anyApiToken |
+| API_KEY   | anyApiToken                                            |
 
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Running
 
 ```bash
-# Execute a aplicação
+# Exec application
 $ go run main.go
 
 ```
