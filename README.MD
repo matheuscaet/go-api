@@ -28,6 +28,7 @@ O preenchimento dessas variáveis são obrigatórias, então segue um exemplo de
 | --------- | ------------------------------------------------------ |
 | API_PORT  | 3001                                                   |
 | MONGOURI  | mongodb+srv://(USER):(PASS)@cluster0.h5mtb.mongodb.net |
+| API_KEY  | anyApiToken |
 
 ### 🎲 Rodando o Back End (servidor)
 
